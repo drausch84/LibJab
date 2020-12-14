@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lib Jab</title>
+    <!--Bootstrap Doc-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--JS/jQuery Doc-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Libre+Baskerville&family=Unkempt&display=swap" rel="stylesheet">
+    <!--CSS File Import-->
+    <link href="CSS/index.css" rel="stylesheet" type="text/css" media="all">
+    <!--JS File Import-->
+    <script src = "./JS/game.js"></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div class = "container">
+        <div class = "title-column">
+            <h1 class = "display-4">
+                Lib Jab
+            </h1>
+            <img class = "lib-jab-logo" src = "./assets/images/wacky-libs-logo.png">
+            <h2 class = "about-header-1st">
+                "A Game for <span class ="lib-jab-label" style = "font-family: 'Baskervville', serif">adjective</span> People 
+            </h2>
+            <h2 class ="about-header-2nd">
+                with a bad case of <span class ="lib-jab-label" style = "font-family: 'Baskervville', serif">medical noun</span>"
+            </h2>
+        </div>
+        <!--Start of the Mad Libs Form for the Story-->
+        <div class = "questionaire">
+            <h1 class = "questionaire-header">
+                Fill in the Choices!
+            </h1>
+            <hr>
+            <!--Form for the User-->
+            <form role = "form" class = "user-form">
+                <div class = "form-group w-50">
+                    <label for = "pet-name" class = "input-label">Favorite Pet's Name:</label>
+                    <input for = "pet-name" class = "form-control pet-name" id = " input-type" type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "adjective" class = "input-label">Adjective ending in "ing":</label>
+                    <input for = "adjective" class = "form-control adjective" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "color" class = "input-label">Color:</label>
+                    <input for = "color" class = "form-control color" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "rhyme-word" class = "input-label">Noun That Rhymes With Fruit:</label>
+                    <input for = "rhyme-word" class = "form-control rhyme-word" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "adverb" class = "input-label">Adverb:</label>
+                    <input for = "adverb" class = "form-control adverb" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "body-part" class = "input-label">Part of Body:</label>
+                    <input for = "body-part" class = "form-control body-part" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "best-friend-name" class = "input-label">Best Friend's Name:</label>
+                    <input for = "best-friend-name" class = "form-control best-friend-name" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "clothing" class = "input-label">Article of Clothing:</label>
+                    <input for = "clothing" class = "form-control clothing" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "ice-cream-flavor" class = "input-label">Flavor of Ice Cream:</label>
+                    <input for = "ice-cream-flavor" class = "form-control ice-cream-flavor" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "us-city" class = "input-label">City in the United States:</label>
+                    <input for = "us-city" class = "form-control us-city" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "food" class = "input-label">Favorite Food (singular):</label>
+                    <input for = "food" class = "form-control food" id = "input-type"  type = "text" placeholder = "Enter ....">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "celeb-name" class = "input-label">Celebrity Name:</label>
+                    <input for = "celeb-name" class = "form-control celeb-name" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "recreational-activity" class = "input-label">Recreational Activity:</label>
+                    <input for = "recreational-activity" class = "form-control recreational-activity" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "funny-phrase" class = "input-label">Funny Phrase:</label>
+                    <input for = "funny-phrase" class = "form-control funny-phrase" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "personality-trait" class = "input-label">Personality Trait:</label>
+                    <input for = "personality-trait" class = "form-control personality-trait" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "verb" class = "input-label">Verb ending in "ing":</label>
+                    <input for = "verb" class = "form-control verb" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "emotion" class = "input-label">Emotion:</label>
+                    <input for = "emotion" class = "form-control emotion" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "plural-noun" class = "input-label">Plural Noun:</label>
+                    <input for = "plural-noun" class = "form-control plural-noun" id = "input-type"  type = "text" placeholder = "Enter ...">
+                </div>
+                <div class = "form-group w-50">
+                    <label for = "animal" class = "input-label">Animal:</label>
+                    <input for = "animal" class = "form-control animal" id = "input-type" type = "text" placeholder = "Enter ...">
+                </div>
+            </form>
+            <button id = "generate-story" type = "submit" class = "btn btn-primary btn-lg">Create Story!</button>
+            <hr>
+        </div>
+        <!--End of the Form-->
+
+        <!--Story Skeleton-->
+        <div id = "story">
+            <h1 class = "story-header">
+                A Most Unfortunate Day
+            </h1>
+            <hr>
+            <p class = "first-part">
+                Hello, my name is <span class = "pet-name" id = "ad-lib"></span>.  Today began like any other day, I was rushing down the stairs in a very <span class = "adjective" id = "ad-lib"></span> manner, because I was running late for work.
+                I searched frantically for my car keys, which shouldn't be hard to find since I have a <span class = "color" id = "ad-lib"></span> keychain!  I searched for what felt like hours until I finally found them
+                underneath a <span class = "rhyme-word" id = "ad-lib"></span>.  As odd as it was to find my keys there, I <span class = "adverb" id = "ad-lib"></span> drank my morning coffee and headed out the door.
+                As I ran to my car, I slipped on a puddle and landed right on my <span class ="body-part" id = "ad-lib"></span>!  OUCH!!!!  As I picked myself up, my phone began to ring!  
+                It was my boss, <span class ="best-friend-name" id = "ad-lib"></span>.  "<span class = "pet-name" id = "ad-lib"></span>, you're 30 minutes late!!!!!"  "I'm sorry Mr. <span class = "best-friend-name" id = "ad-lib"></span>,
+                I'll be there as soon as I can."  "Well, if you aren't here in 15 minutes, consider yourself fired!", Mr. <span class ="best-friend-name" id = "ad-lib"></span> shouted before hanging up on me.
+            </p>
+            <p class = "second-part">
+                I was ready to hop in my car when I noticed that I must have torn my <span class = "clothing" id = "ad-lib"></span> when I slipped on the puddle!  This was most unfortunate considering this <span class = "clothing" id = "ad-lib"></span> was
+                from my favorite clothing store, <i><span class = "ice-cream-flavor" id = "ad-lib"></span> Republic</i>.  What really stinks is our town's <i><span class = "ice-cream-flavor" id = "ad-lib"></span> Republic</i> recently shut down
+                and the nearest one is in <span class = "us-city" id = "ad-lib"></span>.  No matter, I have to hurry to work before I get fired!  Immediately, upon entering my car, the smell of <span class = "food" id = "ad-lib"></span>s
+                filled the air.  Man, I could really go for a <span class = "food" id = "ad-lib"></span> right about now, I thought.  That's when I noticed I was sitting in an entire batch of <span class = "food" id = "ad-lib"></span>s!!!!  
+                NO!!!!!!!!  I completely forgot I left them on my driver's seat last night!!!!  No matter, its time to get to work!!  I was driving until I approached a red light at a cross-section of Broadway and Main Street.  Out of the corner of my eye,
+                I saw a homeless person juggling crushed beer cans and singing sailor shanties!  Oh wow, that homeless person looks exactly like <span class = "celeb-name" id = "ad-lib"></span>!  Afterwards, the homeless person began to engage in a spirited 
+                exhibition of <span class = "recreational-activity" id = "ad-lib"></span>.
+            </p>
+            <p class = "third-part">
+                OK, it's time to get out of here!!!!  I had 10 minutes to make it to work, and I was about 3 miles away.
+                "<span class = "funny-phrase" id = "ad-lib"></span>!  This is going to be close!  I knew I had to make it on time, especially considering how <span class = "personality-trait" id = "ad-lib"></span> Mr. <span class ="best-friend-name" id = "ad-lib"></span> is.
+                I made it to my company's parking lot with 4 minutes to spare.  I began <span class = "verb" id = "ad-lib"></span> toward the building door.  I was filled with <span class = "emotion" id = "ad-lib"></span> for actually
+                making it to work on time.  Upon running toward my office cubical, I was approached by a group of <span class = "plural-noun" id = "ad-lib"></span>.  "Did you hear?", the <span class = "plural-noun" id = "ad-lib"></span> asked me.
+                "No, what?", I inquired.  One of the <span class = "plural-noun" id = "ad-lib"></span> began laughing as she told me, "So apparently Mr. <span class ="best-friend-name" id = "ad-lib"></span> was running late for work because he was attacked on his doorstep
+                by a rabid <span class = "animal" id = "ad-lib"></span>!"  "Oh my goodness, is he alright?", I asked.  "He's fine, just a few scrapes, but because of that incident, we get to leave home early!"  "<span class = "funny-phrase" id = "ad-lib"></span>!" 
+                I shouted, as I headed out of the building.
+            </p>
+            <hr>
+            <div class = "new-story">
+                <button id = "redo-story" type = "submit" class = "btn btn-primary btn-lg">Redo The Story?</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Lib Jab: Inspired by Mad Libs&trade; © 2020 David Rausch
+    </footer>
+</body>
+</html>
